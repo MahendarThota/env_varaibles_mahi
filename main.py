@@ -42,6 +42,6 @@ try:
         password=DB_PASSWORD,
         port=DB_PORT
     )
-    print("✅ Database connected successfully!")
+    print("Database connected successfully!")
 except Exception as e:
-    print("❌ Connection failed:", e)
+    print("Connection failed:", e)
